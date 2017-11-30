@@ -1,4 +1,4 @@
-package wicket_lecture.bean;
+package wicket_lecture.LINEClone.Ver1;
 
 import java.io.Serializable;
 
