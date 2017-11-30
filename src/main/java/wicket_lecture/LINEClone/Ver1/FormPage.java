@@ -1,4 +1,4 @@
-package wicket_lecture.LINEClone;
+package wicket_lecture.LINEClone.Ver1;
 
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;

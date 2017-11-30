@@ -2,6 +2,9 @@ package wicket_lecture.LINEClone;
 
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.link.Link;
+import wicket_lecture.LINEClone.Ver1.BeanListViewPage;
+import wicket_lecture.LINEClone.Ver1.FormPage;
+import wicket_lecture.LINEClone.Ver1.ListViewPage;
 
 public class TopPage extends WebPage{
 
