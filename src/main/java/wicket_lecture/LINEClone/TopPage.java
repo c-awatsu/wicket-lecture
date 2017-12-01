@@ -11,7 +11,7 @@ public class TopPage extends WebPage{
 
     public TopPage(){
 
-        //一番最初に作る
+        //最初はここから
         Link<Void> linkExample = new Link<Void>("linkExample"){
 
             @Override
@@ -20,8 +20,9 @@ public class TopPage extends WebPage{
             }
         };
         add(linkExample);
+        //ここまで
 
-        //SysOutFormPageを作る時に追加してください
+        //SysOutFormPageを作る時に追加 ここから
         Link<Void> toSysOutFormPage = new Link<Void>("toSysOutFormPage") {
             @Override
             public void onClick() {
@@ -29,8 +30,9 @@ public class TopPage extends WebPage{
             }
         };
         add(toSysOutFormPage);
+        //ここまで
 
-        //LabelFormPageを作る時に追加してください
+        //LabelFormPageを作る時に追加　ここまで
         Link<Void> toLabelFormPage = new Link<Void>("toLabelFormPage"){
 
             @Override
@@ -39,8 +41,9 @@ public class TopPage extends WebPage{
             }
         };
         add(toLabelFormPage);
+        //ここまで
 
-        //ListViewPageを作る時に追加してください
+        //ListViewPageを作る時に追加　ここから
         Link<Void> toListViewPage = new Link<Void>("toListViewPage"){
 
             @Override
@@ -49,8 +52,9 @@ public class TopPage extends WebPage{
             }
         };
         add(toListViewPage);
+        //ここまで
 
-        //BeanListViewPageを作る時に追加してください
+        //BeanListViewPageを作る時に追加 ここから
         Link<Void> toBeanListViewPage = new Link<Void>("toBeanListViewPage"){
 
             @Override
@@ -59,6 +63,7 @@ public class TopPage extends WebPage{
             }
         };
         add(toBeanListViewPage);
+        //ここまで
     }
 
 }
